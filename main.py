@@ -17,7 +17,7 @@ def get_users():
 # Endpoint para obtener un usuario por ID
 @app.get("/personas/{id}")
 def get_user(id: int):
-    return {"id": id, "name": "John Doe"}
+    return {"id": id, "name": "{persona.nombre}"}
 
 # Endpoint para crear un nuevo usuario
 @app.post("/personas/crear")
