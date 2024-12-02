@@ -39,4 +39,4 @@ def borrar(persona_id: int):
 
 @app.get("/")
 def index ():
-    return {"message":"EEEAEEAAE"}
+    return {}
